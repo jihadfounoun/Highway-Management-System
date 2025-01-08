@@ -67,4 +67,4 @@ aggiunta
 ## Testing
 The project includes a comprehensive set of 111 tests to ensure the correctness and robustness of the implemented functionalities. These tests cover various scenarios for station management, vehicle management, and route planning
 ## Documentation
-Detailed specifications details are provided in the [specification](specification/) folder.
+Detailed specifications  are provided in the [specification](specification/) folder.
