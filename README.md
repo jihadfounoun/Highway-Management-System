@@ -1,25 +1,35 @@
-# Highway Management system
-This project was the final exam for my Algorithms and Data Structures course at Politecnico di Milano in 2023.<br><br> Evalutation: 30/30
-## Overview
-This project is a practical demonstration of applying data structures and algorithms to address real-world challenges. Using C programming, I designed and implemented a highway management system. This system efficiently manages various elements of a highway, such as electric vehicle rental stations, vehicle additions and demolitions, and most importantly, route planning. A core focus was on implementing route planning algorithms that accounted for both time and space complexities
-## Features
-* Route Planning: Plan routes between stations, considering the constraints and capabilities of each station.
-* Station Management : Add and remove stations.
-* Vehicle Management: Add and remove vehicles at specific stations
-## Algorithms and Data Structure used
-* Binary Search Trees (BST): Used for efficient insertion, deletion, and search operations on stations.
-* Recursion: Employed in various operations such as finding the minimum number of stops and planning the route.
-* Sorting: Utilized to order stations based on specific criteria.
-* Dynamic Programming Concepts: Applied in the route planning algorithm to ensure optimal path selection.
-## Usage
-The system accepts the following commands as input:
+# Highway Management System
 
-* aggiungi-stazione  <station_distance> <number_of_vehicles> <vehicle_ranges>: Adds a new station at the specified distance with the given vehicles.
-* aggiungi-auto <station_distance> <vehicle_range>: Adds a vehicle to the station at the specified distance.
-* rottama-auto <station_distance> <vehicle_range>: Removes a vehicle from the station at the specified distance.
-* demolisci-stazione <station_distance>: Removes the station at the specified distance.
-* pianifica-percorso <start_station_distance> <end_station_distance>: Plans the route between the start and end stations.
-## Example
+**Final Project - Algorithms and Data Structures**  
+*Politecnico di Milano, 2023*  
+**Valutazione: 30/30**
+
+## Overview
+
+Efficient highway management system implemented in C, focusing on electric vehicle stations, route planning, and optimization. Designed to balance memory and time complexities, the project applies advanced algorithms and data structures to solve real-world challenges.
+
+## Core Features
+
+- **Route Planning:** Optimized algorithms for pathfinding and stop minimization.
+- **Station Management:** Add/remove stations dynamically.
+- **Vehicle Management:** Manage vehicles with specific ranges across stations.
+
+## Key Algorithms and Structures
+
+- **Binary Search Trees (BST):** Efficient station management.
+- **Dynamic Programming:** Optimal route selection.
+- **Sorting & Recursion:** For station ordering and route planning.
+
+## Commands
+
+- `aggiungi-stazione <station_distance> <number_of_vehicles> <vehicle_ranges>`
+- `aggiungi-auto <station_distance> <vehicle_range>`
+- `rottama-auto <station_distance> <vehicle_range>`
+- `demolisci-stazione <station_distance>`
+- `pianifica-percorso <start_station_distance> <end_station_distance>`
+
+## Example Usage
+
 input:
 ```bash
 aggiungi-stazione 91 9 5 4 5 5 4 6 5 4 5
@@ -57,4 +67,4 @@ aggiunta
 ## Testing
 The project includes a comprehensive set of 111 tests to ensure the correctness and robustness of the implemented functionalities. These tests cover various scenarios for station management, vehicle management, and route planning
 ## Documentation
-For more detailed information about the project, refer to the SPECIFICATION folder included in the repository. This file contains comprehensive specifications and explanations of the system's functionalities and implementation details.
+Detailed specifications details are provided in the [specification](specification/) folder.
